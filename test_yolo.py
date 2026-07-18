@@ -1,14 +1,4 @@
-"""
-Standalone test for the emotion/mood detector.
- 
-Run this on its own (no YOLO, no person detection) to check whether
-face + smile detection works at all on your webcam. If this window
-shows face boxes and "Happy"/"Neutral" text correctly, the problem is
-in how main.py crops/feeds frames to EmotionDetector. If this ALSO
-shows nothing, the problem is your OpenCV install / cascades / camera
-itself.
-"""
- 
+
 import cv2
 from detectors.emotion import EmotionDetector
 from utils.camera import Camera
