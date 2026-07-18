@@ -1,11 +1,4 @@
-"""
-Helper script to figure out which camera index corresponds to your
-iPhone (via Continuity Camera) vs. your Mac's built-in webcam.
 
-It opens each index in turn, grabs one frame, and saves it as
-camera_0.jpg, camera_1.jpg, etc. so you can look at the images and
-see which one is the iPhone.
-"""
 
 import cv2
 
